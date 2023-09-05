@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de projeto feito para monitorar aquário">
+    <meta name="keywords" content="Peixe, Betta, monitorador, monitorar, ph, temperatura">
+    <title>Betta</title>
+    <link rel="shortcut icon" href="src/img/icon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="src/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family= família= Advertência:wght@400;500;600;700 & display=swap" rel="stylesheet" >
+</head>
+<body>
+
+  <!-- Barra de navegação -->
+  
+  <nav id="navbar-example2" class="navbar px-3 mb-3">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Betta</a>
+        <ul class="nav justify-content-end nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home-section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#sobre-section">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#equipe-section">Equipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active bg-primary" href="#contato-section">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </nav>
+
+<!-- Inicio Site -->
+
+       <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col sobre">
+            <h2>Seja bem-vindo</h2>
+            <p>Neste site o senhor(a) poderá contemplar nosso TCC</p>
+            <button type="button" class="btn btn-primary btn-lg">Saiba mais</button>
+            </div>
+            <div class="col-5">
+              <img src="src/img/peixe2.jpg" alt="Peixe" class="img-thumbnail" style="width: 666px;">
+            </div>
+          </div>
+
+<br>
+<!--Sobre-->
+
+<section id="sobre-section">
+  <h2 class="titulo-sobre">Sobre</h2>
+  <br>
+  <p>O objetivo deste Trabalho de Conclusão de Curso (TCC) é auxiliar e contribuir no monitoramento para a criação de peixes ornamentais de forma prática e eficiente. Para cada espécie de peixes existem diferentes necessidades, é o caso dos peixes ornamentais e em específico ao peixe betta onde essa obra foi implementada.</p>
+  <p>Este projeto aborda fatores essenciais para a análise da saúde e do bem-estar dos peixes em seus aquários em ambientes domésticos. Foram utilizados recursos como Arduino, sensor de pH, sensor de temperatura, e display para o usuário visualizar as informações obtidas. A linguagem de programação utilizada no Arduino é o C++.</p>
+  <p>Portanto, torna-se necessário o desenvolvimento de um método que solucione essa problemática. Nesse contexto, propõe-se este projeto com a intenção de auxiliar na resolução da maioria dos contratempos ocasionados justamente pela falta de tempo. O indivíduo terá a possibilidade de verificar o pH da água e a temperatura da água através do display para que o criador possa notar possíveis problemas com a água do aquário. Outra forma é pelos dispositivos de visualização através da caixa de componentes com o dispositivo led para a visualização do estado do aquário.</p>
+  <div style="display: flex; justify-content: flex-end;">
+    <a href="src/download/tcc.docx.pdf" download>
+      <button class="btn-dw"><i class="fa fa-download"></i> Download</button>
+  </a>
+  </div>
+</section>
+
+<!--Carousel-->
+
+<div class="d-flex justify-content-center">
+  <div id="carouselExampleIndicators" class="carousel slide justify-content-xl-center" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="src/img/betta1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="src/img/betta2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="src/img/betta3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="src/img/betta4.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<!-- Equipe DS -->
+
+<br><br><br>
+<section id="equipe-section" class="image-section">
+  <div class="section-header">
+    <h2 class="equipe-section">Equipe</h2>
+  </div>
+  <div class="person">
+      <img src="src/img/lucas.jpg" alt="Lucas Bassora ">
+      <center><p><strong>Lucas Bassora</strong></p></center>
+  </div>
+  <div class="person">
+      <img src="src/img/miguel.jpg" alt="Miguel Henrique">   
+      <center><p><strong>Miguel Henrique</strong></p></center>
+  </div>   
+  <div class="person">
+      <img src="src/img/thiago.jpg" alt="Thiago Renato">
+      <center><p><strong>Thiago Renato</strong></p></center>
+  </div>
+  </section>
+
+<!-- Contato DS -->
+
+<section id="contato-section"></section>
+<br>
+    <h4>Entre em Contato - Fale Conosco</h4>
+<br>
+<form id="contatoForm">
+  <div class="form-group">
+    <label for="name">Nome:</label>
+    <input type="text" class="form-control" id="name" name="name" required>
+  </div>
+<div class="form-group">
+    <label for="email">Endereço de Email:</label> 
+<input type="email" class="form-control" id="email" name="email" required>
+</div>
+<div class="form-group">
+    <label for="message">Mensagem:</label>
+    <textarea class="form-control" id="message" name="message" rows="4" style="max-height: 200px; resize: none;" required></textarea>
+</div>
+<br>
+<button type="submit" class="btn btn-primary">Enviar</button>
+  <button type="reset" class="btn btn-secondary" id="clearFieldsButton">Limpar</button>
+</form>
+</section>
+
+    <script src="script.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

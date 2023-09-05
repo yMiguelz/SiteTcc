@@ -1,0 +1,167 @@
+/* Sessão Global TCC - Betta */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #8CEDFF;
+  margin: 0;
+  color: black;
+  font-family: "Caveat", cursive;
+  justify-content: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Sessão Navbar TCC - Betta */
+nav {
+  height: 100px;
+  background-color: #8CEDFF;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  position: fixed; 
+  top: 0; 
+}
+
+.nav-link {
+  color: #007CFF;
+}
+
+:hover.nav-link {
+  color: #007CFF;
+}
+
+.header {
+  height: 500px;
+  background-color: #8CEDFF;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header .container .row .col {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header .container .row .col h2 {
+  letter-spacing: 15px;
+}
+
+.sobre .btn {
+  width: 250px;
+}
+
+.menu {
+  flex: 40%;
+  margin-left: 10%;
+  border: 1px solid black;
+  font-family: 'Lobster';
+}
+
+.menu p {
+  font-size: 20px;
+}
+
+.menu h2 {
+  letter-spacing: 10px;
+}
+
+.slide {
+  color: black;
+  height: 300px;
+  width: 50%;
+  margin-top: 20px;
+  background-color: black;
+}
+
+nav {
+  width: 100%;
+}
+
+nav .navbar-brand {
+  display: flex;
+  margin-left: 10%;
+  width: 40%;
+  font-family: losbster;
+}
+
+nav .nav-item {
+  padding-left: 30px;
+}
+
+/* Sesão Sobre Equipe TCC - Betta */
+.image-section {
+  background-color: #8CEDFF;
+  margin-top: 20px;
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.section-header {
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.person {
+  margin: 10px;
+  transition: transform 0.3s ease;
+  display: inline-block; /* Coloca as divs lado a lado */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.person img {
+  max-width: 200px;
+  border-radius: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.person:hover {
+  transform: scale(1.1);
+}
+
+/* Sesão Imagens Carousel TCC - Betta */
+.carousel-inner .carousel-item img {
+  width: 300px;
+  height: 370px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+/* Sesão Sobre Assunto TCC - Betta */
+#sobre-section {
+  margin-top: 0;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background-color: #8CEDFF;
+  padding: 40px;
+  border: 1px solid #4DAEFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-sobre {
+  margin-top: 0px;
+  font-size: 30px;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+
+/* Sesão Button Download TCC - Betta */
+
+/* Style buttons */
+.btn-dw {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  text-align: right;
+  font-size: 20px;
+  float: right;
+}
+
+/* Darker background on mouse-over */
+.btn-dw:hover {
+  background-color: RoyalBlue;
+}
+
